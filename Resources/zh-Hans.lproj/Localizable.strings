@@ -1,0 +1,523 @@
+/* 简体中文 —— key 就是界面上的英文原文。
+   英文是基线：这张表里没有的 key 会原样显示英文，所以半翻译的表也是能用的表。
+   改英文文案时必须同步改这里的 key，否则那一条会静静地退回英文。 */
+
+/* —— 顶栏 / 通用动作 —— */
+"Library" = "图库";
+"Edit" = "编辑";
+"View" = "查看";
+"Create" = "创建";
+"Create…" = "创建…";
+"Share" = "分享";
+"Search name, caption, tag" = "搜索名称、说明、标签";
+"Preferences…" = "偏好设置…";
+"Keyboard Shortcuts" = "键盘快捷键";
+"Close" = "关闭";
+"Cancel" = "取消";
+"OK" = "好";
+"Done" = "完成";
+"Apply" = "应用";
+"Clear" = "清除";
+"Reset" = "重置";
+"Reset to Default" = "恢复默认";
+"Reset to defaults" = "恢复默认设置";
+"Select All" = "全选";
+"Select None" = "全不选";
+"Select Top 10" = "选择前 10 项";
+"Reveal" = "显示";
+"Reveal all" = "全部显示";
+"Reveal in Finder" = "在访达中显示";
+"Reveal Selected in Finder" = "在访达中显示所选";
+"Save a Copy" = "存储副本";
+"Save to Disk" = "存储到磁盘";
+"Refresh preview" = "刷新预览";
+"Choose…" = "选取…";
+"Find…" = "查找…";
+"Find Photo Folders" = "查找照片文件夹";
+"Find Photo Folders…" = "查找照片文件夹…";
+"Rescan" = "重新扫描";
+"Scan" = "扫描";
+"Show Hidden" = "显示已隐藏";
+"Show Info Panel" = "显示信息面板";
+"Show current handlers" = "显示当前的打开方式";
+"Show Duplicate Files" = "显示重复文件";
+"Undo" = "撤销";
+"Undo Edit" = "撤销编辑";
+"Redo Edit" = "重做编辑";
+"No edits yet" = "暂无编辑";
+"Clear Edits" = "清除编辑";
+"Revert to Original" = "还原为原图";
+"Apply Crop" = "应用裁剪";
+"Rotate Left" = "向左旋转";
+"Rotate Right" = "向右旋转";
+"Flip Horizontal" = "水平翻转";
+"Hide Photo" = "隐藏照片";
+
+/* —— 创建 / 分享 / 导出 —— */
+"Collage" = "拼图";
+"Collage…" = "拼图…";
+"Movie" = "影片";
+"Movie…" = "影片…";
+"Poster" = "海报";
+"Poster…" = "海报…";
+"Slideshow" = "幻灯片";
+"Export" = "导出";
+"Export…" = "导出…";
+"Export PDF…" = "导出 PDF…";
+"Export as HTML Gallery" = "导出为 HTML 相册";
+"Export as HTML Gallery…" = "导出为 HTML 相册…";
+"Export Tray…" = "导出托盘…";
+"Email" = "邮件";
+"Email…" = "邮件…";
+"Back Up Library" = "备份图库";
+"Back Up…" = "备份…";
+"Print" = "打印";
+"Print…" = "打印…";
+"Print captions" = "打印说明文字";
+"Movie title" = "影片标题";
+"Poster title" = "海报标题";
+
+/* —— 照片托盘 / 相册 —— */
+"Photo Tray" = "照片托盘";
+"Photo Viewer" = "照片查看器";
+"Add to Photo Tray" = "加入照片托盘";
+"Add Starred to Tray" = "把已加星的照片加入托盘";
+"Empty Tray" = "清空托盘";
+"Apply Effect to Tray" = "对托盘应用效果";
+"Create Album from Tray…" = "用托盘创建相册…";
+"New Album" = "新建相册";
+"New Album…" = "新建相册…";
+"Album name" = "相册名称";
+"Drag photos to the tray, then create an album" = "把照片拖到托盘，再创建相册";
+"Select photos and press ⌘T to hold them here" = "选中照片并按 ⌘T 暂存到这里";
+
+/* —— 右键菜单 / 效果 —— */
+"Open in Photo Viewer" = "在照片查看器中打开";
+"Open in External Editor" = "用外部编辑器打开";
+"Copy All Effects" = "复制全部效果";
+"Copy Effects" = "复制效果";
+"Paste All Effects" = "粘贴全部效果";
+"Paste Effects" = "粘贴效果";
+"Batch Edit Selection…" = "批量编辑所选…";
+"Use the Edit menu to apply an effect to the whole selection." = "用「编辑」菜单把效果应用到整个所选。";
+"Select photos in the library first." = "请先在图库中选择照片。";
+
+/* —— 整理 —— */
+"Rename Files…" = "重命名文件…";
+"Adjust Photo Date…" = "调整照片日期…";
+"Properties" = "属性";
+"Duplicate Files" = "重复文件";
+"New name" = "新名称";
+"Name prefix" = "名称前缀";
+"Number from" = "起始编号";
+"Please enter a new name for these files:" = "请为这些文件输入新名称：";
+"Files are renamed inside their own folder. Nothing is moved, and nothing is overwritten." =
+    "文件会在各自所在的文件夹内重命名。不会移动，也不会覆盖。";
+"Leave it blank to keep each file's current name and only add the parts below." =
+    "留空则保留每个文件当前的名称，只添加下面的部分。";
+"Current photo date" = "当前照片日期";
+"New photo date" = "新照片日期";
+"No byte-identical files in this library." = "此图库中没有字节完全相同的文件。";
+"Nothing is deleted here. Tick the copies you want gone and hand them to Finder — " =
+    "这里不会删除任何内容。勾选想清理的副本，再交给访达处理 — ";
+"Keep only the oldest" = "只保留最早的";
+"Opens with" = "打开方式";
+"Nothing would change." = "不会有任何变化。";
+
+/* —— 导入 / 扫描文件夹 —— */
+"Import Folder…" = "导入文件夹…";
+"Import from Camera…" = "从相机导入…";
+"Destination" = "目标位置";
+"Location" = "位置";
+"Look in" = "查找范围";
+"Nothing is ticked, so the scanner will not import any photos." =
+    "没有勾选任何项，因此扫描器不会导入照片。";
+"Sweeps a location for pictures, then shows the folder tree they live in." =
+    "扫描某个位置的照片，然后显示它们所在的文件夹树。";
+"Ignore under" = "忽略小于";
+
+/* —— 侧栏 —— */
+"All Photos" = "所有照片";
+"Starred" = "已加星";
+"Recent Changes" = "最近修改";
+"Places" = "地点";
+"Hidden" = "已隐藏";
+"Colour Labels" = "颜色标签";
+"Folders" = "文件夹";
+"Albums" = "相册";
+"Tags" = "标签";
+"No folders yet" = "尚无文件夹";
+"No tags" = "无标签";
+"Add tag" = "添加标签";
+"Red" = "红色";
+"Orange" = "橙色";
+"Yellow" = "黄色";
+"Green" = "绿色";
+"Blue" = "蓝色";
+"Purple" = "紫色";
+"Add a folder to the library" = "把文件夹加入图库";
+"Create a new album" = "新建相册";
+"Rescan all folders" = "重新扫描所有文件夹";
+"Scan a disk for folders that contain pictures" = "扫描磁盘，找出存放照片的文件夹";
+
+/* —— 工具行 —— */
+"Dates" = "日期";
+"Sort" = "排序";
+"Caption" = "说明";
+"Name" = "名称";
+"Date Taken" = "拍摄日期";
+"Date Modified" = "修改日期";
+"Size" = "大小";
+"Star" = "星标";
+"Automatic" = "自动";
+"File Name" = "文件名";
+"Resolution" = "分辨率";
+"Clear Date Filter" = "清除日期筛选";
+"Or a fixed range" = "或固定范围";
+"Show photos taken between" = "显示拍摄于这段时间的照片";
+"From" = "从";
+"To" = "到";
+"Format" = "格式";
+"Masonry layout — columns of one width, each photo its own height" =
+    "瀑布流布局 — 每列等宽，每张照片各自保持高度";
+"Show folder paths — a heading above each folder's photos" =
+    "显示文件夹路径 — 在每个文件夹的照片上方加一行标题";
+"Thumbnail size" = "缩略图大小";
+"Toggle sort direction" = "切换排序方向";
+"What to print under each thumbnail" = "缩略图下面显示什么";
+"Show only starred photos" = "只看已加星的照片";
+"Limit the grid to a date range" = "把网格限制在一个日期范围内";
+
+/* —— 信息面板 —— */
+"Actions" = "操作";
+"Edit History" = "编辑历史";
+"Path" = "路径";
+"Dimensions" = "尺寸";
+"File Size" = "文件大小";
+"Modified" = "修改时间";
+"Add Star" = "加星";
+
+/* —— 设置 —— */
+"Interface language" = "界面语言";
+"Takes effect at once — there is no need to relaunch." = "立即生效，无需重新启动。";
+"Rescan watched folders when the app opens" = "打开应用时重新扫描监视的文件夹";
+"Library location" = "图库位置";
+"Watched folders" = "监视的文件夹";
+"Default export size" = "默认导出尺寸";
+"Default quality" = "默认画质";
+"JPEG quality on save" = "保存时的 JPEG 画质";
+"Include an Originals sub-folder with untouched copies" = "附带一个存放未改动副本的 Originals 子文件夹";
+"Matches the original behaviour: editing a photo never destroys the source file." =
+    "与原版行为一致：编辑照片永远不会破坏源文件。";
+"Slide duration" = "幻灯片间隔";
+"Repeat slideshow" = "循环播放";
+"Ken Burns" = "Ken Burns 效果";
+"Ken Burns (slow pan and zoom)" = "Ken Burns 效果（缓慢平移缩放）";
+"Pan and zoom each photo" = "对每张照片平移缩放";
+"File Types" = "文件类型";
+"Image formats" = "图像格式";
+
+/* —— 编辑器 —— */
+"Angle" = "角度";
+"Brush size" = "画笔大小";
+"Rotation" = "旋转";
+"Border" = "边框";
+"Spacing" = "间距";
+"Columns" = "列数";
+"Rows" = "行数";
+"Drop shadows" = "投影";
+"Watermark" = "水印";
+"Your text" = "你的文字";
+"Text" = "文字";
+"Title" = "标题";
+"Page" = "页面";
+"Quality" = "画质";
+"Preview" = "预览";
+"Example:" = "示例：";
+"Music" = "音乐";
+"Transition" = "转场";
+"Seconds / photo" = "秒 / 张";
+"Image width" = "图像宽度";
+"Image size" = "图像大小";
+"Original size" = "原始大小";
+"Flat" = "平铺";
+"Search all effects" = "搜索所有效果";
+"Sliders preview live. Apply writes one entry to the edit history." =
+    "滑块是实时预览。点「应用」才会在编辑历史里记一条。";
+"Click on the photo to apply. Each click adds one mark to the history." =
+    "点击照片即应用。每次点击都会在历史里记一笔。";
+"Click on the photo to place the text" = "点击照片放置文字";
+"Click outside the photo to close · scroll to zoom · drag to pan" =
+    "点击照片外关闭 · 滚轮缩放 · 拖动平移";
+"ONE-CLICK FIXES" = "一键修复";
+"TOOLS" = "工具";
+"TUNABLE" = "可调参数";
+"Thumbnails" = "缩略图";
+
+/* —— 其它 —— */
+/* —— 带数字的文案 ——
+   `Text("\(n) items")` 在 SwiftUI 里的 key 不是那句英文，而是格式串："%lld" 对应 Int，
+   "%@" 对应 String。所以这些条目的 key 长这样，左边不是给人读的英文句子。
+   写错格式符的后果只是「这条不生效、回退英文」，不会出别的错。 */
+"%lld items" = "%lld 张";
+"%lld photos" = "%lld 张照片";
+"%lld photos in library" = "图库共 %lld 张";
+"%lld held" = "已存 %lld 张";
+"%lld hidden" = "已隐藏 %lld 张";
+"%lld photos selected" = "已选中 %lld 张照片";
+"%lld photos · %@" = "%lld 张照片 · %@";
+"%lld copies" = "%lld 份副本";
+"%lld formats" = "%lld 种格式";
+"%lld of %lld ticked" = "已勾选 %lld / %lld";
+"%lld from %@" = "%lld 张来自 %@";
+"%lld photos in %lld top-level folders" = "%lld 张照片，分布在 %lld 个顶层文件夹中";
+"No effect matches “%@”" = "没有匹配「%@」的效果";
+"Estimated length: %@" = "预计时长：%@";
+
+"Date" = "日期";
+"KB" = "KB";
+"MB" = "MB";
+"inches" = "英寸";
+"oldest" = "最早";
+"optional" = "可选";
+"text" = "文本";
+"reading files…" = "正在读取文件…";
+"In the original app" = "在原版中";
+"The original's key map is not bundled with this build." = "此构建未附带原版的快捷键表。";
+
+/* —— 状态行与进度行 ——
+   这些文案由模型层构造，不是视图里的字面量，所以它们不经过 SwiftUI 的查表，
+   而是由 `StatusNote` 在绘制的瞬间用当前语言解析（见 Localization.swift）。
+   key 是**格式串**：计数用 %lld，文本用 %@，秒数用 %.2f。
+   以 ", " 或 " （" 开头的几条是**片段** —— 它们被拼在一句之后，译文中要保留
+   开头的分隔符（中文用全角逗号/括号）。 */
+"Size floor cleared — small pictures will come back" = "已清除大小下限 — 小图会回来";
+"Ignoring %lld picture under %@" = "已忽略 %lld 张小于 %@ 的图片";
+"Ignoring %lld pictures under %@" = "已忽略 %lld 张小于 %@ 的图片";
+"Preparing previews %lld/%lld…" = "正在准备预览 %lld/%lld…";
+"Every photo in this view is hidden — turn on Show Hidden to see them" = "此视图中的照片已全部隐藏 — 打开「显示已隐藏」即可看到";
+"Cleared the colour label on %lld photo" = "已清除 %lld 张照片的颜色标签";
+"Cleared the colour label on %lld photos" = "已清除 %lld 张照片的颜色标签";
+"%@ label on %lld photo" = "已给 %lld 张照片加上 %@ 标签";
+"%@ label on %lld photos" = "已给 %lld 张照片加上 %@ 标签";
+"Hid %lld photo — View ▸ Show Hidden brings them back" = "已隐藏 %lld 张照片 — 「查看 ▸ 显示已隐藏」可恢复";
+"Hid %lld photos — View ▸ Show Hidden brings them back" = "已隐藏 %lld 张照片 — 「查看 ▸ 显示已隐藏」可恢复";
+"Unhid %lld photo" = "已取消隐藏 %lld 张照片";
+"Unhid %lld photos" = "已取消隐藏 %lld 张照片";
+"Rename failed: %@" = "重命名失败：%@";
+"Renamed %lld file" = "已重命名 %lld 个文件";
+"Renamed %lld files" = "已重命名 %lld 个文件";
+", %lld already had that name" = "，其中 %lld 个已是该名称";
+", %lld failed" = "，%lld 个失败";
+" (%@)" = "（%@）";
+"Adjusted the date on %lld photo" = "已调整 %lld 张照片的日期";
+"Adjusted the date on %lld photos" = "已调整 %lld 张照片的日期";
+"Could not change any photo date: %@" = "无法修改任何照片的日期：%@";
+"Checking folders…" = "正在检查文件夹…";
+"Scanning %@…" = "正在扫描 %@…";
+"Scanning %@… %lld/%lld" = "正在扫描 %@… %lld/%lld";
+"Scan found %lld folders in %.2fs (%@)" = "扫描在 %.2f 秒内找到 %lld 个文件夹（%@）";
+"Added %lld folder from the scan" = "已从扫描结果添加 %lld 个文件夹";
+"Added %lld folders from the scan" = "已从扫描结果添加 %lld 个文件夹";
+" (ignoring anything under %@)" = "（忽略小于 %@ 的文件）";
+"Applied %@ to %lld photos" = "已将 %@ 应用到 %lld 张照片";
+"%@ has no effects to copy" = "%@ 没有可复制的效果";
+"Copied %lld effect from %@" = "已从 %@ 复制 %lld 个效果";
+"Copied %lld effects from %@" = "已从 %@ 复制 %lld 个效果";
+"Pasted %lld effect onto %lld photo" = "已将 %lld 个效果粘贴到 %lld 张照片";
+"Pasted %lld effect onto %lld photos" = "已将 %lld 个效果粘贴到 %lld 张照片";
+"Pasted %lld effects onto %lld photo" = "已将 %lld 个效果粘贴到 %lld 张照片";
+"Pasted %lld effects onto %lld photos" = "已将 %lld 个效果粘贴到 %lld 张照片";
+"Could not open in %@: %@" = "无法用 %@ 打开：%@";
+"Opened %@ in %@" = "已用 %@ 打开 %@";
+"Saved %@ (original copied to Originals/)" = "已保存 %@（原图已复制到 Originals/）";
+"Save failed: %@" = "保存失败：%@";
+"Wrote %@" = "已写入 %@";
+
+/* —— 其余界面文案（会话中补齐的一批）—— */
+"Layout" = "布局";
+"Shape" = "形状";
+"Background" = "背景";
+"Template" = "模板";
+"W" = "宽";
+"H" = "高";
+"×" = "×";
+"Add to Album" = "添加到相册";
+"Colour Label" = "颜色标签";
+"Apply Effect to Selection" = "将效果应用到所选";
+"Click to remove from tray" = "点击移出托盘";
+"Edit Photo" = "编辑照片";
+"Thumbnail Caption" = "缩略图说明";
+"Clear the search" = "清除搜索";
+"Hidden photos — View ▸ Show Hidden to see them" = "已隐藏的照片 — 「查看 ▸ 显示已隐藏」可查看";
+"Copy this photo's effects so they can be pasted onto others" = "复制这张照片的效果，以便粘贴到其它照片";
+"Aspect ratio" = "宽高比";
+"Font" = "字体";
+"EDIT HISTORY" = "编辑历史";
+"Image resolution" = "图像分辨率";
+"(appended when more than one file is renamed)" = "（重命名多个文件时追加）";
+"This changes the file's creation and modification dates. Running the opposite adjustment puts them back." = "这会修改文件的创建日期与修改日期。做一次反向调整即可恢复。";
+"Pictures smaller than this are left out of the library, not just out of this list" = "小于此值的图片不会进入图库，而不仅仅是不出现在这个列表里";
+"Folder tree" = "文件夹树";
+"Expand All" = "全部展开";
+"Collapse All" = "全部折叠";
+"in library" = "在图库中";
+"Ticked formats are the ones this app imports — and the ones it is willing to open by double-click. Nothing is claimed until you press the button below." = "勾选的格式是本程序会导入、也愿意双击打开的格式。在按下下面的按钮之前，不会抢占任何关联。";
+"Hand every format back to the application that had it before" = "把所有格式交还给原先的应用";
+"Re-read from the system" = "从系统重新读取";
+"Editing" = "编辑";
+"Star (⌘⇧8)" = "加星标（⌘⇧8）";
+"%lld%%" = "%lld%%";
+"%lld px" = "%lld 像素";
+"(%lld)" = "（%lld）";
+"· %lld here" = "· 本层 %lld";
+"· %@ each" = "· 每个 %@";
+"· %@ recoverable" = "· 可回收 %@";
+"Comparing %lld photos by size, then by content." = "正在比对 %lld 张照片：先比大小，再比内容。";
+"%lld photos · uses the original template engine" = "%lld 张照片 · 使用原版模板引擎";
+"Apply selection to tray (%lld)" = "把所选加入托盘（%lld）";
+"%lld edit" = "%lld 处修改";
+"%lld edits" = "%lld 处修改";
+"#%@" = "#%@";
+"%lld file" = "%lld 个文件";
+"%lld files" = "%lld 个文件";
+"…and %lld more." = "…还有 %lld 个。";
+"%lld name is already taken — “ (2)” is appended rather than overwriting" = "%lld 个名称已被占用 — 会追加「 (2)」而不是覆盖";
+"%lld names are already taken — “ (2)” is appended rather than overwriting" = "%lld 个名称已被占用 — 会追加「 (2)」而不是覆盖";
+"%@%@" = "%@%@";
+"Every selected photo is set to %@" = "每张所选照片都设为 %@";
+"Read from the key map that shipped inside the original — %lld commands. Entries marked “implemented” exist here as well; the rest are the gap." = "读取自原版内置的快捷键表 — 共 %lld 条命令。标有 implemented 的在这里也已实现；其余就是差距。";
+"%@ label" = "%@ 标签";
+"%@\n%@ · %@" = "%@\n%@ · %@";
+"Search engine: %@" = "检索引擎：%@";
+"Sweeping %@…" = "正在扫描 %@…";
+"This app already opens .%@" = "本程序已经打开 .%@";
+"macOS has no handler for .%@" = "macOS 没有处理 .%@ 的应用";
+"Keep a copy of the original in an “%@” sub-folder when saving" = "保存时把原图复制到「%@」子文件夹";
+"Photos currently in the tray (%lld) will be added." = "当前在托盘里的照片（%lld）也会被加入。";
+"%lld / %lld" = "%lld / %lld";
+"%lld × %lld" = "%lld × %lld";
+"%lld" = "%lld";
+" %@" = " %@";
+"None" = "无";
+"None  ✓" = "无  ✓";
+"Creating…" = "正在创建…";
+"Exporting…" = "正在导出…";
+"Renaming…" = "正在重命名…";
+"Rename %lld file" = "重命名 %lld 个文件";
+"Rename %lld files" = "重命名 %lld 个文件";
+"Remove Star" = "取消星标";
+"Unhide Photo" = "取消隐藏照片";
+"no limit — every picture is kept" = "不设下限 — 所有图片都会保留";
+"smaller pictures are skipped" = "更小的图片会被跳过";
+"Press Scan to look for folders full of photos." = "按下「扫描」查找装满照片的文件夹。";
+"Pick a folder below the volume root — sweeping the whole disk would take a long time." = "请选择卷根目录下的文件夹 — 扫描整块磁盘会花很长时间。";
+"Nothing matched. Try lowering the size threshold or picking another location." = "没有匹配项。试试降低大小阈值，或换一个位置。";
+"Setting…" = "正在设置…";
+"Set as Default Viewer" = "设为默认查看程序";
+"Nothing selected" = "未选择任何内容";
+"original" = "原始尺寸";
+"%lld photo will be exported" = "将导出 %lld 张照片";
+"%lld photos will be exported" = "将导出 %lld 张照片";
+"Nothing is deleted here. Tick the copies you want gone and hand them to Finder — ⌘⌫ there moves them to the Trash, and Undo still works." = "这里不会删除任何东西。勾选你想清理的副本，然后交给 Finder — 在那边按 ⌘⌫ 移入废纸篓，撤销依然有效。";
+"Common" = "通用";
+"What cameras, phones and screenshots produce. ImageIO reads every one of these today." = "相机、手机和截图产生的格式。ImageIO 目前能读其中每一个。";
+"Camera RAW" = "相机 RAW";
+"Vendor and cross-vendor RAW. Decoding goes through the system RAW pipeline, so a format starts working the day Apple ships a decoder for it — and not before." = "各厂商与跨厂商的 RAW。解码走系统 RAW 管线，所以某种格式要等 Apple 提供解码器的那天才可用 — 一天都不会早。";
+"Original" = "原始";
+"1:1 (Square)" = "1:1（正方形）";
+"4:3 (Standard)" = "4:3（标准）";
+"3:2 (35mm)" = "3:2（35mm）";
+"16:9 (Widescreen)" = "16:9（宽屏）";
+"5:7 (5\"x7\")" = "5:7（5\"x7\"）";
+"2:3 (4\"x6\")" = "2:3（4\"x6\"）";
+"4:5 (8\"x10\")" = "4:5（8\"x10\"）";
+"11:17" = "11:17";
+"CD Cover" = "CD 封面";
+"DVD Cover" = "DVD 封面";
+"Screen" = "屏幕";
+"Monitor" = "显示器";
+"5x7 Print" = "5x7 照片";
+"4x6 Print" = "4x6 照片";
+"Crop, straighten, red-eye, retouch, text, and the one-click fixes" = "裁剪、拉直、去红眼、润饰、文字，以及一键修正";
+"Fill light, highlights, shadows, colour temperature, saturation" = "补光、高光、阴影、色温、饱和度";
+"Effects with no settings — one click and done" = "无参数的效果 — 点一下就完成";
+"Frames, edges and the decorative effects" = "相框、边缘与装饰效果";
+"Effects with sliders (sharpen, glow, blur, colour temperature…)" = "带滑块的效果（锐化、发光、模糊、色温…）";
+"Exporting %lld of %lld…" = "正在导出第 %lld / %lld 张…";
+"Exported %lld file to %@" = "已导出 %lld 个文件到 %@";
+"Exported %lld files to %@" = "已导出 %lld 个文件到 %@";
+"Backed up %lld new file" = "已备份 %lld 个新文件";
+"Backed up %lld new files" = "已备份 %lld 个新文件";
+"Saved %@" = "已保存 %@";
+"Failed: %@" = "失败：%@";
+"claimed %lld" = "已接管 %lld 个";
+"; %lld were already yours" = "；%lld 个原本就属于本程序";
+"; refused %lld: %@" = "；%lld 个被拒绝：%@";
+"; no UTI for %@" = "；%@ 没有对应的 UTI";
+"Nothing to do." = "无事可做。";
+"Handed %lld formats back to their previous applications." = "已把 %lld 种格式交还给原先的应用。";
+"Nothing to hand back — they are already with their previous applications." = "没有可交还的 — 它们本来就在原先的应用手中。";
+"%lld groups · %lld extra copies · %@ recoverable" = "%lld 组 · %lld 份多余副本 · 可回收 %@";
+"Nothing to show." = "没有可显示的。";
+"Scanned %lld photos." = "已扫描 %lld 张照片。";
+" %lld shared a file size and were compared by content." = " %lld 张大小相同，进而比对了内容。";
+" %lld could not be read." = " %lld 张无法读取。";
+" The scan was interrupted." = " 扫描被中断。";
+" Took %.1fs." = " 用时 %.1f 秒。";
+"Scanning…" = "正在扫描…";
+"No results yet" = "暂无结果";
+"%lld selected · %lld photos will be added" = "已选 %lld 个 · 将加入 %lld 张照片";
+" · under %@ ignored" = " · 忽略小于 %@ 的文件";
+"Add Folders" = "添加文件夹";
+"Add %lld Folder" = "添加 %lld 个文件夹";
+"Add %lld Folders" = "添加 %lld 个文件夹";
+"Grid" = "网格";
+"Picture Pile" = "图片堆叠";
+"Mosaic" = "马赛克拼贴";
+"Frame" = "相框";
+"Multiple Exposure" = "多重曝光";
+"Contact Sheet" = "缩略图印样";
+"White" = "白色";
+"Black" = "黑色";
+"Gray" = "灰色";
+"Checkerboard" = "棋盘格";
+"Square (1:1)" = "正方形（1:1）";
+"Standard (4:3)" = "标准（4:3）";
+"Widescreen (16:9)" = "宽屏（16:9）";
+"Photo (3:2)" = "照片（3:2）";
+"Tall (2:3)" = "竖幅（2:3）";
+"Fade" = "淡入淡出";
+"Cross Fade" = "交叉淡化";
+"Slide Left" = "向左滑动";
+"Slide Right" = "向右滑动";
+"Wipe Up" = "向上擦除";
+"480p" = "480p";
+"720p" = "720p";
+"1080p" = "1080p";
+"Pictures" = "图片";
+"Home" = "个人文件夹";
+"Desktop" = "桌面";
+"Downloads" = "下载";
+"One photo per page" = "每页一张照片";
+"Contact sheet" = "缩略图印样";
+"4×6 prints" = "4×6 照片";
+"Fixes" = "修正";
+"Tuning" = "调整";
+"Effects" = "效果";
+"Effects 2" = "效果 2";
+"Adjust" = "微调";
+"No Label" = "无标签";
+"Nothing copied yet" = "尚未复制任何效果";
+"Paste %lld copied effect(s) onto the selection or Photo Tray" = "把已复制的 %lld 个效果粘贴到所选或照片托盘";
+"%lld effects on this tab · %lld in all" = "本页 %lld 个效果 · 共 %lld 个";
+"%lld match across all tabs" = "在所有页签中共 %lld 个匹配";
+"%lld matches across all tabs" = "在所有页签中共 %lld 个匹配";
+"Select a photo" = "请选择一张照片";
+"Import a folder to start your library" = "导入一个文件夹即可开始建立图库";
+"Nothing here" = "这里什么都没有";
+"Hide them again" = "再次隐藏它们";
+"Show hidden photos in the library" = "在图库中显示已隐藏的照片";
+"Backing up…" = "正在备份…";
+"Back Up" = "备份";
+"Back to Library" = "返回图库";
