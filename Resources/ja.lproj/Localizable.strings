@@ -1,0 +1,524 @@
+/* 日本語 —— key は画面に出ている英語そのものです。
+   英語が基準で、ここに無い key は英語のまま表示されます。
+   英語側の文言を変えたら、ここの key も同じに直してください。 */
+
+/* —— ツールバー / 共通 —— */
+"Library" = "ライブラリ";
+"Edit" = "編集";
+"View" = "表示";
+"Create" = "作成";
+"Create…" = "作成…";
+"Share" = "共有";
+"Search name, caption, tag" = "名前・キャプション・タグを検索";
+"Preferences…" = "環境設定…";
+"Keyboard Shortcuts" = "キーボードショートカット";
+"Close" = "閉じる";
+"Cancel" = "キャンセル";
+"OK" = "OK";
+"Done" = "完了";
+"Apply" = "適用";
+"Clear" = "消去";
+"Reset" = "リセット";
+"Reset to Default" = "初期設定に戻す";
+"Reset to defaults" = "初期設定に戻す";
+"Select All" = "すべて選択";
+"Select None" = "選択を解除";
+"Select Top 10" = "上位 10 件を選択";
+"Reveal" = "表示";
+"Reveal all" = "すべて表示";
+"Reveal in Finder" = "Finder に表示";
+"Reveal Selected in Finder" = "選択項目を Finder に表示";
+"Save a Copy" = "コピーを保存";
+"Save to Disk" = "ディスクに保存";
+"Refresh preview" = "プレビューを更新";
+"Choose…" = "選択…";
+"Find…" = "検索…";
+"Find Photo Folders" = "写真フォルダを検索";
+"Find Photo Folders…" = "写真フォルダを検索…";
+"Rescan" = "再スキャン";
+"Scan" = "スキャン";
+"Show Hidden" = "非表示項目を表示";
+"Show Info Panel" = "情報パネルを表示";
+"Show current handlers" = "現在の関連付けを表示";
+"Show Duplicate Files" = "重複ファイルを表示";
+"Undo" = "取り消す";
+"Undo Edit" = "編集を取り消す";
+"Redo Edit" = "編集をやり直す";
+"No edits yet" = "編集はまだありません";
+"Clear Edits" = "編集を消去";
+"Revert to Original" = "オリジナルに戻す";
+"Apply Crop" = "トリミングを適用";
+"Rotate Left" = "左に回転";
+"Rotate Right" = "右に回転";
+"Flip Horizontal" = "左右反転";
+"Hide Photo" = "写真を隠す";
+
+/* —— 作成 / 共有 / 書き出し —— */
+"Collage" = "コラージュ";
+"Collage…" = "コラージュ…";
+"Movie" = "ムービー";
+"Movie…" = "ムービー…";
+"Poster" = "ポスター";
+"Poster…" = "ポスター…";
+"Slideshow" = "スライドショー";
+"Export" = "書き出す";
+"Export…" = "書き出す…";
+"Export PDF…" = "PDF に書き出す…";
+"Export as HTML Gallery" = "HTML ギャラリーとして書き出す";
+"Export as HTML Gallery…" = "HTML ギャラリーとして書き出す…";
+"Export Tray…" = "トレイを書き出す…";
+"Email" = "メール";
+"Email…" = "メール…";
+"Back Up Library" = "ライブラリをバックアップ";
+"Back Up…" = "バックアップ…";
+"Print" = "プリント";
+"Print…" = "プリント…";
+"Print captions" = "キャプションを印刷";
+"Movie title" = "ムービーのタイトル";
+"Poster title" = "ポスターのタイトル";
+
+/* —— フォトトレイ / アルバム —— */
+"Photo Tray" = "フォトトレイ";
+"Photo Viewer" = "写真ビューア";
+"Add to Photo Tray" = "フォトトレイに追加";
+"Add Starred to Tray" = "スター付きをトレイに追加";
+"Empty Tray" = "トレイを空にする";
+"Apply Effect to Tray" = "トレイに効果を適用";
+"Create Album from Tray…" = "トレイからアルバムを作成…";
+"New Album" = "新規アルバム";
+"New Album…" = "新規アルバム…";
+"Album name" = "アルバム名";
+"Drag photos to the tray, then create an album" = "写真をトレイにドラッグしてからアルバムを作成";
+"Select photos and press ⌘T to hold them here" = "写真を選んで ⌘T を押すとここに保持されます";
+
+/* —— コンテキストメニュー / 効果 —— */
+"Open in Photo Viewer" = "写真ビューアで開く";
+"Open in External Editor" = "外部エディタで開く";
+"Copy All Effects" = "すべての効果をコピー";
+"Copy Effects" = "効果をコピー";
+"Paste All Effects" = "すべての効果をペースト";
+"Paste Effects" = "効果をペースト";
+"Batch Edit Selection…" = "選択項目をまとめて編集…";
+"Use the Edit menu to apply an effect to the whole selection." =
+    "選択範囲全体に効果を適用するには「編集」メニューを使います。";
+"Select photos in the library first." = "先にライブラリで写真を選択してください。";
+
+/* —— 整理 —— */
+"Rename Files…" = "ファイル名を変更…";
+"Adjust Photo Date…" = "写真の日付を調整…";
+"Properties" = "プロパティ";
+"Duplicate Files" = "重複ファイル";
+"New name" = "新しい名前";
+"Name prefix" = "名前の接頭辞";
+"Number from" = "開始番号";
+"Please enter a new name for these files:" = "これらのファイルの新しい名前を入力してください:";
+"Files are renamed inside their own folder. Nothing is moved, and nothing is overwritten." =
+    "ファイルはそれぞれのフォルダ内で名前が変わります。移動も上書きもされません。";
+"Leave it blank to keep each file's current name and only add the parts below." =
+    "空欄にすると現在の名前を保ち、以下の部分だけを追加します。";
+"Current photo date" = "現在の撮影日";
+"New photo date" = "新しい撮影日";
+"No byte-identical files in this library." = "このライブラリに完全に同一のファイルはありません。";
+"Nothing is deleted here. Tick the copies you want gone and hand them to Finder — " =
+    "ここでは何も削除されません。不要なコピーにチェックを入れ、Finder に渡してください — ";
+"Keep only the oldest" = "最も古いものだけ残す";
+"Opens with" = "このアプリで開く";
+"Nothing would change." = "変更はありません。";
+
+/* —— 読み込み / フォルダスキャン —— */
+"Import Folder…" = "フォルダを読み込む…";
+"Import from Camera…" = "カメラから読み込む…";
+"Destination" = "保存先";
+"Location" = "場所";
+"Look in" = "検索対象";
+"Nothing is ticked, so the scanner will not import any photos." =
+    "何もチェックされていないため、スキャナは写真を読み込みません。";
+"Sweeps a location for pictures, then shows the folder tree they live in." =
+    "指定した場所を写真が入ったフォルダを探して走査し、その階層を表示します。";
+"Ignore under" = "次のサイズ未満は無視";
+
+/* —— サイドバー —— */
+"All Photos" = "すべての写真";
+"Starred" = "スター付き";
+"Recent Changes" = "最近の変更";
+"Places" = "場所";
+"Hidden" = "非表示";
+"Colour Labels" = "色ラベル";
+"Folders" = "フォルダ";
+"Albums" = "アルバム";
+"Tags" = "タグ";
+"No folders yet" = "フォルダはまだありません";
+"No tags" = "タグなし";
+"Add tag" = "タグを追加";
+"Red" = "赤";
+"Orange" = "オレンジ";
+"Yellow" = "黄";
+"Green" = "緑";
+"Blue" = "青";
+"Purple" = "紫";
+"Add a folder to the library" = "ライブラリにフォルダを追加";
+"Create a new album" = "新しいアルバムを作成";
+"Rescan all folders" = "すべてのフォルダを再スキャン";
+"Scan a disk for folders that contain pictures" = "ディスクを走査して写真の入ったフォルダを探す";
+
+/* —— ツールバー —— */
+"Dates" = "日付";
+"Sort" = "並べ替え";
+"Caption" = "キャプション";
+"Name" = "名前";
+"Date Taken" = "撮影日";
+"Date Modified" = "更新日";
+"Size" = "サイズ";
+"Star" = "スター";
+"Automatic" = "自動";
+"File Name" = "ファイル名";
+"Resolution" = "解像度";
+"Clear Date Filter" = "日付フィルタを消去";
+"Or a fixed range" = "または固定範囲";
+"Show photos taken between" = "次の期間に撮影された写真を表示";
+"From" = "開始";
+"To" = "終了";
+"Format" = "フォーマット";
+"Masonry layout — columns of one width, each photo its own height" =
+    "メーソンリーレイアウト — 列幅は同じで、写真ごとに高さが変わります";
+"Show folder paths — a heading above each folder's photos" =
+    "フォルダパスを表示 — 各フォルダの写真の上に見出しを付けます";
+"Thumbnail size" = "サムネイルのサイズ";
+"Toggle sort direction" = "並べ替えの向きを切り替え";
+"What to print under each thumbnail" = "サムネイルの下に表示する内容";
+"Show only starred photos" = "スター付きの写真だけ表示";
+"Limit the grid to a date range" = "グリッドを日付範囲で絞り込む";
+
+/* —— 情報パネル —— */
+"Actions" = "操作";
+"Edit History" = "編集履歴";
+"Path" = "パス";
+"Dimensions" = "サイズ（ピクセル）";
+"File Size" = "ファイルサイズ";
+"Modified" = "変更日";
+"Add Star" = "スターを付ける";
+
+/* —— 環境設定 —— */
+"Interface language" = "表示言語";
+"Takes effect at once — there is no need to relaunch." = "すぐに反映されます。再起動は不要です。";
+"Rescan watched folders when the app opens" = "アプリを開いたときに監視フォルダを再スキャン";
+"Library location" = "ライブラリの場所";
+"Watched folders" = "監視フォルダ";
+"Default export size" = "書き出しサイズの初期値";
+"Default quality" = "画質の初期値";
+"JPEG quality on save" = "保存時の JPEG 画質";
+"Include an Originals sub-folder with untouched copies" =
+    "未加工のコピーを入れる Originals サブフォルダを含める";
+"Matches the original behaviour: editing a photo never destroys the source file." =
+    "オリジナルと同じ動作です。写真を編集しても元ファイルは壊れません。";
+"Slide duration" = "スライドの表示時間";
+"Repeat slideshow" = "スライドショーを繰り返す";
+"Ken Burns" = "Ken Burns 効果";
+"Ken Burns (slow pan and zoom)" = "Ken Burns 効果（ゆっくり移動しながらズーム）";
+"Pan and zoom each photo" = "各写真を移動しながらズーム";
+"File Types" = "ファイル形式";
+"Image formats" = "画像フォーマット";
+
+/* —— エディタ —— */
+"Angle" = "角度";
+"Brush size" = "ブラシサイズ";
+"Rotation" = "回転";
+"Border" = "枠";
+"Spacing" = "間隔";
+"Columns" = "列";
+"Rows" = "行";
+"Drop shadows" = "ドロップシャドウ";
+"Watermark" = "透かし";
+"Your text" = "テキスト";
+"Text" = "テキスト";
+"Title" = "タイトル";
+"Page" = "ページ";
+"Quality" = "画質";
+"Preview" = "プレビュー";
+"Example:" = "例:";
+"Music" = "音楽";
+"Transition" = "トランジション";
+"Seconds / photo" = "秒 / 枚";
+"Image width" = "画像の幅";
+"Image size" = "画像サイズ";
+"Original size" = "元のサイズ";
+"Flat" = "フラット";
+"Search all effects" = "すべての効果を検索";
+"Sliders preview live. Apply writes one entry to the edit history." =
+    "スライダーはその場でプレビューします。「適用」で編集履歴に 1 件記録されます。";
+"Click on the photo to apply. Each click adds one mark to the history." =
+    "写真をクリックすると適用されます。クリックごとに履歴に 1 件追加されます。";
+"Click on the photo to place the text" = "写真をクリックしてテキストを配置";
+"Click outside the photo to close · scroll to zoom · drag to pan" =
+    "写真の外側をクリックで閉じる · スクロールでズーム · ドラッグで移動";
+"ONE-CLICK FIXES" = "ワンクリック修正";
+"TOOLS" = "ツール";
+"TUNABLE" = "調整";
+"Thumbnails" = "サムネイル";
+
+/* —— その他 —— */
+/* —— 数字を含む文言 ——
+   `Text("\(n) items")` の key は英文ではなく書式指定子です（Int は "%lld"、String は "%@"）。 */
+"%lld items" = "%lld 項目";
+"%lld photos" = "%lld 枚";
+"%lld photos in library" = "ライブラリに %lld 枚";
+"%lld held" = "%lld 枚を保持";
+"%lld hidden" = "%lld 枚を非表示";
+"%lld photos selected" = "%lld 枚を選択中";
+"%lld photos · %@" = "%lld 枚 · %@";
+"%lld copies" = "%lld 個のコピー";
+"%lld formats" = "%lld 形式";
+"%lld of %lld ticked" = "%lld / %lld を選択";
+"%lld from %@" = "%@ からの %lld 枚";
+"%lld photos in %lld top-level folders" = "%lld 枚の写真、上位 %lld フォルダ";
+"No effect matches “%@”" = "「%@」に一致する効果はありません";
+"Estimated length: %@" = "推定の長さ: %@";
+
+"Date" = "日付";
+"inches" = "インチ";
+"oldest" = "最も古い";
+"optional" = "任意";
+"text" = "テキスト";
+"reading files…" = "ファイルを読み込み中…";
+"In the original app" = "オリジナル版では";
+"The original's key map is not bundled with this build." =
+    "このビルドにはオリジナルのキーマップが含まれていません。";
+
+/* —— ステータス行と進捗行 ——
+   これらはモデル層が組み立てる文言で、ビューのリテラルではないため SwiftUI の
+   表引きを通らず、`StatusNote` が描画時に現在の言語で解決します
+   （Localization.swift 参照）。key は**書式指定子**です（数は %lld、文字列は %@、
+   秒は %.2f）。先頭が ", " や " （" の項目は**断片**で、文の後ろに連結されます。
+   訳文でも先頭の区切り記号を残してください。 */
+"Size floor cleared — small pictures will come back" = "サイズ下限を解除しました — 小さい画像が戻ります";
+"Ignoring %lld picture under %@" = "%@ 未満の画像を %lld 枚無視しています";
+"Ignoring %lld pictures under %@" = "%@ 未満の画像を %lld 枚無視しています";
+"Preparing previews %lld/%lld…" = "プレビューを準備中 %lld/%lld…";
+"Every photo in this view is hidden — turn on Show Hidden to see them" = "この表示の写真はすべて非表示です — 「非表示項目を表示」をオンにすると見られます";
+"Cleared the colour label on %lld photo" = "%lld 枚の写真の色ラベルを消しました";
+"Cleared the colour label on %lld photos" = "%lld 枚の写真の色ラベルを消しました";
+"%@ label on %lld photo" = "%lld 枚の写真に %@ ラベルを付けました";
+"%@ label on %lld photos" = "%lld 枚の写真に %@ ラベルを付けました";
+"Hid %lld photo — View ▸ Show Hidden brings them back" = "%lld 枚の写真を非表示にしました — 「表示 ▸ 非表示項目を表示」で戻せます";
+"Hid %lld photos — View ▸ Show Hidden brings them back" = "%lld 枚の写真を非表示にしました — 「表示 ▸ 非表示項目を表示」で戻せます";
+"Unhid %lld photo" = "%lld 枚の写真の非表示を解除しました";
+"Unhid %lld photos" = "%lld 枚の写真の非表示を解除しました";
+"Rename failed: %@" = "名前の変更に失敗しました: %@";
+"Renamed %lld file" = "%lld 個のファイルの名前を変更しました";
+"Renamed %lld files" = "%lld 個のファイルの名前を変更しました";
+", %lld already had that name" = "、そのうち %lld 個は既にその名前でした";
+", %lld failed" = "、%lld 個失敗";
+" (%@)" = "（%@）";
+"Adjusted the date on %lld photo" = "%lld 枚の写真の日付を調整しました";
+"Adjusted the date on %lld photos" = "%lld 枚の写真の日付を調整しました";
+"Could not change any photo date: %@" = "どの写真の日付も変更できませんでした: %@";
+"Checking folders…" = "フォルダを確認中…";
+"Scanning %@…" = "%@ をスキャン中…";
+"Scanning %@… %lld/%lld" = "%@ をスキャン中… %lld/%lld";
+"Scan found %lld folders in %.2fs (%@)" = "スキャンで %lld 個のフォルダを %.2f 秒で検出（%@）";
+"Added %lld folder from the scan" = "スキャン結果から %lld 個のフォルダを追加しました";
+"Added %lld folders from the scan" = "スキャン結果から %lld 個のフォルダを追加しました";
+" (ignoring anything under %@)" = "（%@ 未満は無視）";
+"Applied %@ to %lld photos" = "%lld 枚の写真に %@ を適用しました";
+"%@ has no effects to copy" = "%@ にはコピーできる効果がありません";
+"Copied %lld effect from %@" = "%@ から %lld 個の効果をコピーしました";
+"Copied %lld effects from %@" = "%@ から %lld 個の効果をコピーしました";
+"Pasted %lld effect onto %lld photo" = "%lld 枚の写真に %lld 個の効果を貼り付けました";
+"Pasted %lld effect onto %lld photos" = "%lld 枚の写真に %lld 個の効果を貼り付けました";
+"Pasted %lld effects onto %lld photo" = "%lld 枚の写真に %lld 個の効果を貼り付けました";
+"Pasted %lld effects onto %lld photos" = "%lld 枚の写真に %lld 個の効果を貼り付けました";
+"Could not open in %@: %@" = "%@ で開けませんでした: %@";
+"Opened %@ in %@" = "%@ を %@ で開きました";
+"Saved %@ (original copied to Originals/)" = "%@ を保存しました（元画像は Originals/ にコピー）";
+"Save failed: %@" = "保存に失敗しました: %@";
+"Wrote %@" = "%@ を書き出しました";
+
+/* —— その他の UI 文言（追加分）—— */
+"Layout" = "レイアウト";
+"Shape" = "形";
+"Background" = "背景";
+"Template" = "テンプレート";
+"W" = "幅";
+"H" = "高さ";
+"×" = "×";
+"Add to Album" = "アルバムに追加";
+"Colour Label" = "色ラベル";
+"Apply Effect to Selection" = "選択範囲に効果を適用";
+"Click to remove from tray" = "クリックでトレイから外す";
+"Edit Photo" = "写真を編集";
+"Thumbnail Caption" = "サムネイルのキャプション";
+"Clear the search" = "検索を消去";
+"Hidden photos — View ▸ Show Hidden to see them" = "非表示の写真 — 「表示 ▸ 非表示項目を表示」で見られます";
+"Copy this photo's effects so they can be pasted onto others" = "この写真の効果をコピーして他の写真に貼り付けられるようにします";
+"Aspect ratio" = "アスペクト比";
+"Font" = "フォント";
+"EDIT HISTORY" = "編集履歴";
+"Image resolution" = "画像の解像度";
+"(appended when more than one file is renamed)" = "（複数ファイルの名前を変更するときに付加）";
+"This changes the file's creation and modification dates. Running the opposite adjustment puts them back." = "ファイルの作成日時と変更日時を変更します。逆の調整で元に戻せます。";
+"Pictures smaller than this are left out of the library, not just out of this list" = "これより小さい画像はこの一覧だけでなくライブラリからも除外されます";
+"Folder tree" = "フォルダツリー";
+"Expand All" = "すべて展開";
+"Collapse All" = "すべて折りたたむ";
+"in library" = "ライブラリ内";
+"Ticked formats are the ones this app imports — and the ones it is willing to open by double-click. Nothing is claimed until you press the button below." = "チェックした形式はこのアプリが取り込み、ダブルクリックで開く形式です。下のボタンを押すまで関連付けは変更されません。";
+"Hand every format back to the application that had it before" = "すべての形式を元のアプリケーションに戻す";
+"Re-read from the system" = "システムから再読み込み";
+"Editing" = "編集";
+"Star (⌘⇧8)" = "スター（⌘⇧8）";
+"%lld%%" = "%lld%%";
+"%lld px" = "%lld px";
+"(%lld)" = "（%lld）";
+"· %lld here" = "· この階層に %lld";
+"· %@ each" = "· 各 %@";
+"· %@ recoverable" = "· 回収可能 %@";
+"Comparing %lld photos by size, then by content." = "%lld 枚の写真をサイズ、次に内容で比較しています。";
+"%lld photos · uses the original template engine" = "%lld 枚 · オリジナルのテンプレートエンジンを使用";
+"Apply selection to tray (%lld)" = "選択範囲をトレイに追加（%lld）";
+"%lld edit" = "%lld 件の編集";
+"%lld edits" = "%lld 件の編集";
+"#%@" = "#%@";
+"%lld file" = "%lld 個のファイル";
+"%lld files" = "%lld 個のファイル";
+"…and %lld more." = "…ほか %lld 件。";
+"%lld name is already taken — “ (2)” is appended rather than overwriting" = "%lld 個の名前が既に使われています — 上書きせず「 (2)」を付けます";
+"%lld names are already taken — “ (2)” is appended rather than overwriting" = "%lld 個の名前が既に使われています — 上書きせず「 (2)」を付けます";
+"%@%@" = "%@%@";
+"Every selected photo is set to %@" = "選択したすべての写真を %@ に設定します";
+"Read from the key map that shipped inside the original — %lld commands. Entries marked “implemented” exist here as well; the rest are the gap." = "オリジナルに同梱されていたキーマップを読み込みました — %lld コマンド。implemented の印があるものはここにも実装済みで、残りが差分です。";
+"%@ label" = "%@ ラベル";
+"%@\n%@ · %@" = "%@\n%@ · %@";
+"Search engine: %@" = "検索エンジン: %@";
+"Sweeping %@…" = "%@ を走査中…";
+"This app already opens .%@" = "このアプリは既に .%@ を開きます";
+"macOS has no handler for .%@" = "macOS には .%@ を扱うアプリがありません";
+"Keep a copy of the original in an “%@” sub-folder when saving" = "保存時に元画像を「%@」サブフォルダにコピー";
+"Photos currently in the tray (%lld) will be added." = "現在トレイにある写真（%lld）も追加されます。";
+"%lld / %lld" = "%lld / %lld";
+"%lld × %lld" = "%lld × %lld";
+"%lld" = "%lld";
+" %@" = " %@";
+"None" = "なし";
+"None  ✓" = "なし  ✓";
+"Creating…" = "作成中…";
+"Exporting…" = "書き出し中…";
+"Renaming…" = "名前を変更中…";
+"Rename %lld file" = "%lld 個のファイルの名前を変更";
+"Rename %lld files" = "%lld 個のファイルの名前を変更";
+"Remove Star" = "スターを外す";
+"Unhide Photo" = "写真の非表示を解除";
+"no limit — every picture is kept" = "下限なし — すべての画像を保持します";
+"smaller pictures are skipped" = "これより小さい画像は除外されます";
+"Press Scan to look for folders full of photos." = "「スキャン」を押すと写真の多いフォルダを探します。";
+"Pick a folder below the volume root — sweeping the whole disk would take a long time." = "ボリュームのルートより下のフォルダを選んでください — ディスク全体の走査は長時間かかります。";
+"Nothing matched. Try lowering the size threshold or picking another location." = "一致するものがありません。サイズのしきい値を下げるか、別の場所を選んでください。";
+"Setting…" = "設定中…";
+"Set as Default Viewer" = "デフォルトのビューアに設定";
+"Nothing selected" = "何も選択されていません";
+"original" = "元のサイズ";
+"%lld photo will be exported" = "%lld 枚を書き出します";
+"%lld photos will be exported" = "%lld 枚を書き出します";
+"Nothing is deleted here. Tick the copies you want gone and hand them to Finder — ⌘⌫ there moves them to the Trash, and Undo still works." = "ここでは何も削除しません。不要なコピーにチェックを入れて Finder に渡してください — そちらで ⌘⌫ を押すとゴミ箱に入り、取り消しも効きます。";
+"Common" = "一般";
+"What cameras, phones and screenshots produce. ImageIO reads every one of these today." = "カメラ、スマートフォン、スクリーンショットが作る形式です。ImageIO は現在これらすべてを読めます。";
+"Camera RAW" = "カメラ RAW";
+"Vendor and cross-vendor RAW. Decoding goes through the system RAW pipeline, so a format starts working the day Apple ships a decoder for it — and not before." = "ベンダー製および汎用の RAW。デコードはシステムの RAW パイプラインを通るため、Apple がデコーダを提供した日から使えます — それより早くはありません。";
+"KB" = "KB";
+"MB" = "MB";
+"Original" = "元のまま";
+"1:1 (Square)" = "1:1（正方形）";
+"4:3 (Standard)" = "4:3（標準）";
+"3:2 (35mm)" = "3:2（35mm）";
+"16:9 (Widescreen)" = "16:9（ワイド）";
+"5:7 (5\"x7\")" = "5:7（5\"x7\"）";
+"2:3 (4\"x6\")" = "2:3（4\"x6\"）";
+"4:5 (8\"x10\")" = "4:5（8\"x10\"）";
+"11:17" = "11:17";
+"CD Cover" = "CD ジャケット";
+"DVD Cover" = "DVD ジャケット";
+"Screen" = "画面";
+"Monitor" = "モニター";
+"5x7 Print" = "5x7 プリント";
+"4x6 Print" = "4x6 プリント";
+"Crop, straighten, red-eye, retouch, text, and the one-click fixes" = "切り抜き、傾き補正、赤目、レタッチ、テキスト、ワンクリック修正";
+"Fill light, highlights, shadows, colour temperature, saturation" = "フィルライト、ハイライト、シャドウ、色温度、彩度";
+"Effects with no settings — one click and done" = "設定のない効果 — ワンクリックで完了";
+"Frames, edges and the decorative effects" = "フレーム、縁、装飾効果";
+"Effects with sliders (sharpen, glow, blur, colour temperature…)" = "スライダー付きの効果（シャープ、グロー、ぼかし、色温度…)";
+"Exporting %lld of %lld…" = "%lld / %lld を書き出し中…";
+"Exported %lld file to %@" = "%lld 個のファイルを %@ に書き出しました";
+"Exported %lld files to %@" = "%lld 個のファイルを %@ に書き出しました";
+"Backed up %lld new file" = "%lld 個の新しいファイルをバックアップしました";
+"Backed up %lld new files" = "%lld 個の新しいファイルをバックアップしました";
+"Saved %@" = "%@ を保存しました";
+"Failed: %@" = "失敗: %@";
+"claimed %lld" = "%lld 個を引き受けました";
+"; %lld were already yours" = "、%lld 個はもともとこのアプリのものでした";
+"; refused %lld: %@" = "、%lld 個が拒否されました: %@";
+"; no UTI for %@" = "、%@ に対応する UTI がありません";
+"Nothing to do." = "行うことはありません。";
+"Handed %lld formats back to their previous applications." = "%lld 形式を元のアプリケーションに戻しました。";
+"Nothing to hand back — they are already with their previous applications." = "戻すものはありません — すでに元のアプリケーションが持っています。";
+"%lld groups · %lld extra copies · %@ recoverable" = "%lld 組 · %lld 個の余分なコピー · %@ 回収可能";
+"Nothing to show." = "表示するものがありません。";
+"Scanned %lld photos." = "%lld 枚の写真を走査しました。";
+" %lld shared a file size and were compared by content." = " %lld 枚はファイルサイズが同じだったため、内容を比較しました。";
+" %lld could not be read." = " %lld 枚は読み取れませんでした。";
+" The scan was interrupted." = " 走査が中断されました。";
+" Took %.1fs." = " %.1f 秒かかりました。";
+"Scanning…" = "走査中…";
+"No results yet" = "まだ結果はありません";
+"%lld selected · %lld photos will be added" = "%lld 個を選択 · %lld 枚の写真を追加します";
+" · under %@ ignored" = " · %@ 未満は無視";
+"Add Folders" = "フォルダを追加";
+"Add %lld Folder" = "%lld 個のフォルダを追加";
+"Add %lld Folders" = "%lld 個のフォルダを追加";
+"Grid" = "グリッド";
+"Picture Pile" = "写真の山";
+"Mosaic" = "モザイク";
+"Frame" = "フレーム";
+"Multiple Exposure" = "多重露光";
+"Contact Sheet" = "コンタクトシート";
+"White" = "白";
+"Black" = "黒";
+"Gray" = "グレー";
+"Checkerboard" = "チェッカー";
+"Square (1:1)" = "正方形（1:1）";
+"Standard (4:3)" = "標準（4:3）";
+"Widescreen (16:9)" = "ワイド（16:9）";
+"Photo (3:2)" = "写真（3:2）";
+"Tall (2:3)" = "縦長（2:3）";
+"Fade" = "フェード";
+"Cross Fade" = "クロスフェード";
+"Slide Left" = "左へスライド";
+"Slide Right" = "右へスライド";
+"Wipe Up" = "上へワイプ";
+"480p" = "480p";
+"720p" = "720p";
+"1080p" = "1080p";
+"Pictures" = "ピクチャ";
+"Home" = "ホーム";
+"Desktop" = "デスクトップ";
+"Downloads" = "ダウンロード";
+"One photo per page" = "1 ページに 1 枚";
+"Contact sheet" = "コンタクトシート";
+"4×6 prints" = "4×6 プリント";
+"Fixes" = "修正";
+"Tuning" = "調整";
+"Effects" = "効果";
+"Effects 2" = "効果 2";
+"Adjust" = "微調整";
+"No Label" = "ラベルなし";
+"Nothing copied yet" = "まだ何もコピーしていません";
+"Paste %lld copied effect(s) onto the selection or Photo Tray" = "コピーした %lld 個の効果を選択範囲または写真トレイに貼り付けます";
+"%lld effects on this tab · %lld in all" = "このタブに %lld 個 · 全体で %lld 個";
+"%lld match across all tabs" = "すべてのタブで %lld 件一致";
+"%lld matches across all tabs" = "すべてのタブで %lld 件一致";
+"Select a photo" = "写真を選んでください";
+"Import a folder to start your library" = "フォルダを取り込むとライブラリが始まります";
+"Nothing here" = "ここには何もありません";
+"Hide them again" = "もう一度非表示にする";
+"Show hidden photos in the library" = "ライブラリで非表示の写真を表示";
+"Backing up…" = "バックアップ中…";
+"Back Up" = "バックアップ";
+"Back to Library" = "ライブラリに戻る";
